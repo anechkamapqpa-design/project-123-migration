@@ -1,5 +1,6 @@
 import Entrance from '@/components/Entrance';
 import FloatingGallery from '@/components/FloatingGallery';
+import SalePreview from '@/components/SalePreview';
 import GalleryFooter from '@/components/GalleryFooter';
 
 const Index = () => {
@@ -7,6 +8,7 @@ const Index = () => {
     <main>
       <Entrance />
       <FloatingGallery />
+      <SalePreview />
       <GalleryFooter />
     </main>
   );
